@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gaming-dojo</title>
+    <link rel="stylesheet" href="Exam.css">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <div id="headerright">
+                <h1 class="title">Gaming Dojo</h1>
+            </div>
+            <div id="headerleft">
+                <select name="dollar" id="currency">
+                    <option value="Euro">Euro €</option>
+                </select>
+                <div id="cart">
+                    <img id="shoppingcart" src="images\cart-light.png" alt="shopping cart">
+                    <h2 id="items"><u>0</u></h2>
+                </div>
+                <img id="search" src="images\search-light.png" alt="search-light">
+            </div>
+        </div>
+        <div id="Highlights">
+            <h2>Highlights</h2>
+        </div>
+        <div id="body">
+            <button onclick="goleft()" id="next"><img src="images\chevron-left.png" alt="left"></button>
+                <img id="mainimage" src="images\stonepunk.png" alt="stonepunk">
+            <button onclick="goright()" id="next"><img src="images\chevron-right.png" alt="right"></button>
+        </div>
+        <div id="rows">
+            <div id="row1"></div>
+            <div id="row2"></div>
+            <div id="row3"></div>
+            <div id="row4"></div>
+        </div>
+        <div id="bottom">
+            <div id="box1">
+                <img class="pic" src="images\cafe-neko.png" alt="cafe">
+                    <h2>Cafe Neko: Gold Edition</h2>
+                    <img class="browser" src="images\windows.png" alt="windows">
+                    <img class="browser" src="images\apple.png" alt="apple">
+                <div id="price">
+                    <div class="discount">
+                        <h2 class="percent">-20%</h2>
+                    </div>
+                    <div id="money">
+                        <h3 id="cash"><s>€14.98</s></h3>
+                        <h2 id="cash">€10.49</h2>
+                    </div>
+                        <button class="add3"  id="Buy">Buy</button>
+                </div>
+            </div>
+            <div id="box2">
+                <img class="pic" src="images\pixel-ninjas-2.png" alt="pixel-ninjas-2">
+                <h2>Pixel Ninja 2</h2>
+                    <img class="browser" src="images\windows.png" alt="windows">
+                    <img class="browser" src="images\apple.png" alt="apple">
+                <div id="price">
+                    <div class="discount">
+                        <h2 class="percent">-10%</h2>
+                    </div>
+                    <div id="money">
+                        <h3 id="cash"><s>€8.19</s></h3>
+                        <h2 id="cash">€7.39</h2>
+                    </div>
+                        <button class="add2" id="Buy">Buy</button>
+                </div>
+            </div>
+            <div id="box3">
+                <img class="pic" src="images\stonepunk.png" alt="stonepunk">
+                <h2>Stonepunk 10000 BCE</h2>
+                    <img class="browser" src="images\windows.png" alt="windows">
+                    <img class="browser" src="images\apple.png" alt="apple">
+                    <button onclick="message()" id="linux"><img class="browser" src="images\linux.png" alt="linux"></button>
+                <div id="price">
+                    <div class="discount">
+                        <h3 class="percent">NEW</h3>
+                    </div>
+                    <!-- <h3>€8.19</h3> -->
+                    <h2 id="money">€19.99</h2>
+                    <button class="add1"  id="Buy">Buy</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Exam.js"></script>
+</body>
+</html>
